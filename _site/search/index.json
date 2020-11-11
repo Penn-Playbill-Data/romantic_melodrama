@@ -1,0 +1,36 @@
+[
+  {
+    "pid": "lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020",
+    "label": "1830-02-01 Theatre Royal, Dublin British Library",
+    "archive_holding_document": "British Library",
+    "call_number": "lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020",
+    "containing_collection": "British Library Playbills",
+    "data_cataloger": "Cassidy Holahan",
+    "document_type": "Playbill",
+    "announcements": [
+      "Second Week of Engagement of Mr. Dowton, And last appearance but Two of Miss F. Ayton."
+    ],
+    "collection": "melodrama",
+    "thumbnail": "img/derivatives/simple/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/thumbnail.jpg",
+    "content": " ",
+    "permalink": "/melodrama/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020",
+    "lunr_id": 0
+  },
+  {
+    "pid": "lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+    "label": "1811-09-30 Theatre-Royal, Haymarket",
+    "archive_holding_document": "British Library",
+    "call_number": "lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+    "containing_collection": "British Library Playbills",
+    "data_cataloger": "Cassidy Holahan",
+    "document_type": "Playbill",
+    "announcements": [
+      ""
+    ],
+    "collection": "melodrama",
+    "thumbnail": "img/derivatives/simple/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/thumbnail.jpg",
+    "content": " ",
+    "permalink": "/melodrama/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+    "lunr_id": 1
+  }
+]
