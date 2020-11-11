@@ -1,0 +1,6 @@
+I"�<p>Wax is a minimal computing (<a href="https://github.com/minicomp">minicomp</a>) project led by <a href="http://marii.info/">Marii Nyröp</a>. The project is currently maintained by Marii Nyröp and <a href="https://github.com/elotroalex">Alex Gil</a> at Columbia University Libraries. It uses open source libraries and frameworks including <a href="https://jekyllrb.com">Jekyll</a>, <a href="http://iiif.io">IIIF</a>, <a href="https://openseadragon.github.io/">OpenSeaDragon</a>, <a href="https://ruby.github.io/rake/">Rake</a>, and <a href="http://elasticlunr.com/">ElasticLunr</a>. Wax builds upon work by <a href="https://github.com/pbinkley">Peter Binkley</a>, <a href="https://github.com/workergnome">David Newbury</a>, and others.</p>
+
+<p>We welcome and encourage contributors and maintainers. Please get in touch, or <a href="https://github.com/minicomp/wax">fork the project on GitHub</a>. If you encounter any issue with the software, please <a href="https://github.com/minicomp/wax/issues">create an issue</a> on our repository or post a comment on <a href="https://gitter.im/minicomp/wax/">Gitter</a>.</p>
+
+<p>For more on working with Wax, visit our <a href="https://minicomp.github.io/wiki/wax/">documentation wiki</a>.</p>
+:ET
