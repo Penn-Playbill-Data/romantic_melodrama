@@ -7,7 +7,7 @@ permalink: /exhibits/a/
 ---
 
 
-I am once again changing exhibit A as Cassidy and Michael troubleshoot syncing git hub! 
+Yep, it's me again changing exhibit A!
 
 
 {% include parallax_image.html collection='qatar' pid='obj12' y='50%' %}
