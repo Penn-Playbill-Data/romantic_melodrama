@@ -7,7 +7,7 @@ permalink: /exhibits/a/
 ---
 
 
-Yay I'm changing things in exhibit A for the Romantic melodrama project!
+I am once again changing exhibit A as Cassidy and Michael troubleshoot syncing git hub! 
 
 
 {% include parallax_image.html collection='qatar' pid='obj12' y='50%' %}
