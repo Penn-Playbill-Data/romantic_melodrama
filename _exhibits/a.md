@@ -7,7 +7,7 @@ permalink: /exhibits/a/
 ---
 
 
-Yep, it's me again changing exhibit A!
+Yep, it's me again changing exhibit, this time to test out the branch function.
 
 
 {% include parallax_image.html collection='qatar' pid='obj12' y='50%' %}
