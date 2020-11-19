@@ -1,0 +1,12 @@
+---
+- field_name: pid
+  field_label: 'Item Identifier'
+- field_name: label
+  field_label: 'Title'
+- field_name: archiveHoldingDocument
+  field_label: 'Archive Holding Document'
+- field_name: containingCollection
+  field_label: 'Containintg Collection'
+- field_name: documentPrinter
+  field_label: 'Document Printer'
+---
