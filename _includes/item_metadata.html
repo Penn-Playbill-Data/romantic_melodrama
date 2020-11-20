@@ -18,44 +18,44 @@
       <dd>
         <ul>
         {% for v in value %}
-            {% if type == 'link' %}
-              <li><a href="{{ v | absolute_url }}" target="_blank" rel="noreferrer">
-                {{ v | strip | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
-              </a></li>
-            {% elsif type == 'internal' %}
-              {% assign example = site.documents | where: 'pid', v | first %}
-              <li><a href="{{ example.url | absolute_url }}">
-                {{ example.label }}
-              </a></li>
-            {% else %}
-              <li>{{ v | strip }}</li>
-            {% endif %}
-          {% endfor %}
-          </ul>
-        </dd>
-      {% else %}
-        {% if type == 'link' %}
-          {% if key == 'manifest' %}
-            {%- capture value -%}
-              <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">{{ value | absolute_url }}</a>
-            {%- endcapture -%}
+          {% if type == 'link' %}
+            <li><a href="{{ v | absolute_url }}" target="_blank" rel="noreferrer">
+              {{ v | strip | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
+            </a></li>
+          {% elsif type == 'internal' %}
+            {% assign example = site.documents | where: 'pid', v | first %}
+            <li><a href="{{ example.url | absolute_url }}">
+              {{ example.label }}
+            </a></li>
           {% else %}
-              {%- capture value -%}
-                <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">
-                  {{ value | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
-                </a>
-              {%- endcapture -%}
+            <li>{{ v | strip }}</li>
           {% endif %}
-        {% elsif type == 'internal' %}
-          {% assign example = site.documents | where: 'pid', value | first %}
+        {% endfor %}
+        </ul>
+      </dd>
+    {% else %}
+      {% if type == 'link' %}
+        {% if key == 'manifest' %}
           {%- capture value -%}
-          <a href="{{ example.url | absolute_url }}">
-            {{ example.label }}
-          </a>
+            <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">{{ value | absolute_url }}</a>
           {%- endcapture -%}
+        {% else %}
+            {%- capture value -%}
+              <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">
+                {{ value | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
+              </a>
+            {%- endcapture -%}
         {% endif %}
-        <dt>{{ item.label }}</dt>
-        <dd>{{ value | strip }}</dd>
-        {% endif %}
+      {% elsif type == 'internal' %}
+        {% assign example = site.documents | where: 'pid', value | first %}
+        {%- capture value -%}
+        <a href="{{ example.url | absolute_url }}">
+          {{ example.label }}
+        </a>
+        {%- endcapture -%}
+      {% endif %}
+      <dt>{{ item.label }}</dt>
+      <dd>{{ value | strip }}</dd>
+    {% endif %}
   {% endfor %}
 </dl>
