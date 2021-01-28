@@ -5,8 +5,12 @@
   field_label: 'Title'
 - field_name: archiveHoldingDocument
   field_label: 'Archive Holding Document'
-- field_name: containingCollection
-  field_label: 'Containintg Collection'
+- field_name: announcements
+  field_label: 'Announcements'
 - field_name: documentPrinter
   field_label: 'Document Printer'
+- field_name: containingCollection
+  field_label: 'Containintg Collection'
+- field_name: shows[1][venue]
+  field_label: 'Venue'
 ---
