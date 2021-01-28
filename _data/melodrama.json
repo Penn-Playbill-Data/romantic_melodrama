@@ -3757,7 +3757,7 @@
       ""
     ],
     "dimensions": {
-      "length": "",
+      "length": "example dimension, 9cm.",
       "width": ""
     },
     "documentPrinter": [
@@ -3765,7 +3765,7 @@
         "second list"
     ],
     "printedArea": {
-      "length": "",
+      "length": "Example length, 6cm.",
       "width": ""
     },
     "shows": [

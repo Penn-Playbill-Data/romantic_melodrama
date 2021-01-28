@@ -10,7 +10,9 @@
 - field_name: documentPrinter
   field_label: 'Document Printer'
 - field_name: containingCollection
-  field_label: 'Containintg Collection'
-- field_name: shows[1][venue]
+  field_label: 'Containing Collection'
+- field_name: dimensions.length
+  field_label: 'Length'
+- field_name: shows.0['venue']
   field_label: 'Venue'
 ---
