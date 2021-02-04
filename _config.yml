@@ -67,6 +67,7 @@ collections:
   melodrama: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'qatar_item' # the layout for the pages to use
+    dictionary: 'data_dictionary'
     metadata:
       source: 'melodrama.json' # path to the metadata file within `_data`
     images:

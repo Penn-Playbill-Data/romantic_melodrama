@@ -1,0 +1,18 @@
+---
+- field_name: pid
+  field_label: 'Item Identifier'
+- field_name: label
+  field_label: 'Title'
+- field_name: archiveHoldingDocument
+  field_label: 'Archive Holding Document'
+- field_name: announcements
+  field_label: 'Announcements'
+- field_name: documentPrinter
+  field_label: 'Document Printer'
+- field_name: containingCollection
+  field_label: 'Containing Collection'
+- field_name: dimensions.length
+  field_label: 'Length'
+- field_name: shows.0['venue']
+  field_label: 'Venue'
+---
