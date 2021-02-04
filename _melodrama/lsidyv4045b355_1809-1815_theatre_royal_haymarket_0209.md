@@ -10,13 +10,14 @@ pageNumber: ''
 periodicalTitle: ''
 persistentUrl: ''
 announcements:
-- ''
+- First announcement
+- Second announcement
 dimensions:
   length: ''
   width: ''
 documentPrinter:
-  location: Villiers Street, Strand, London
-  name: T. Woodfall
+- T. Woodfall; Villiers Street, Strand, London
+- second list
 printedArea:
   length: ''
   width: ''

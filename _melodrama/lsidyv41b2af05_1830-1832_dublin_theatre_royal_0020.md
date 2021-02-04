@@ -16,8 +16,8 @@ dimensions:
   length: ''
   width: ''
 documentPrinter:
-  location: 29, Bachelors’-walk
-  name: J. Carrick and Son
+- J. Carrick and Son, 29, Bachelors’-walk
+- second printer
 printedArea:
   length: ''
   width: ''

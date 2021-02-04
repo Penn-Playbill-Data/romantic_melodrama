@@ -17,10 +17,9 @@
       "length": "",
       "width": ""
     },
-    "documentPrinter": {
-      "location": "",
-      "name": ""
-    },
+    "documentPrinter": [
+        ""
+    ],
     "printedArea": {
       "length": "",
       "width": ""
@@ -1132,10 +1131,10 @@
       "length": "",
       "width": ""
     },
-    "documentPrinter": {
-      "location": "29, Bachelors’-walk",
-      "name": "J. Carrick and Son"
-    },
+    "documentPrinter": [
+        "J. Carrick and Son, 29, Bachelors’-walk",
+        "second printer"
+    ],
     "printedArea": {
       "length": "",
       "width": ""
@@ -1628,10 +1627,10 @@
       "length": "",
       "width": ""
     },
-    "documentPrinter": {
-      "location": "Marquis-Court, Drury-Lane",
-      "name": "Lowndes"
-    },
+    "documentPrinter": [
+        "Lowndes; Marquis-Court, Drury-Lane",
+        "second example"
+    ],
     "printedArea": {
       "length": "",
       "width": ""
@@ -2705,10 +2704,9 @@
       "length": "",
       "width": ""
     },
-    "documentPrinter": {
-      "location": "",
-      "name": ""
-    },
+    "documentPrinter": [
+        ""
+    ],
     "printedArea": {
       "length": "",
       "width": ""
@@ -3759,15 +3757,15 @@
       ""
     ],
     "dimensions": {
-      "length": "",
+      "length": "example dimension, 9cm.",
       "width": ""
     },
-    "documentPrinter": {
-      "location": "Villiers Street, Strand, London",
-      "name": "T. Woodfall"
-    },
+    "documentPrinter": [
+        "T. Woodfall; Villiers Street, Strand, London",
+        "second list"
+    ],
     "printedArea": {
-      "length": "",
+      "length": "Example length, 6cm.",
       "width": ""
     },
     "shows": [

@@ -15,8 +15,7 @@ dimensions:
   length: ''
   width: ''
 documentPrinter:
-  location: ''
-  name: ''
+- ''
 printedArea:
   length: ''
   width: ''
