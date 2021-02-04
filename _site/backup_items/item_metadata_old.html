@@ -1,0 +1,66 @@
+<dl class='metadata-block'>
+  {% for item in include.meta %}
+
+    {% if item.value contains 'page.' %}
+      {% assign key = item.value | remove: 'page.' %}
+      {% assign value = page[key] %}
+    {% else %}
+      {% assign value = item.value %}
+      {% assign value = page[item] %}
+    {% endif %}
+
+    {% comment %}
+    Only display non-empty values
+    {% endcomment %}
+
+
+
+    {% if value.first %}
+      <dd>
+        <ul>
+        {% for v in value %}
+          {% if value != blank %}
+            {% if type == 'link' %}
+              <li><a href="{{ v | absolute_url }}" target="_blank" rel="noreferrer">
+                {{ v | strip | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
+              </a></li>
+            {% elsif type == 'internal' %}
+              {% assign example = site.documents | where: 'pid', v | first %}
+              <li><a href="{{ example.url | absolute_url }}">
+                {{ example.label }}
+              </a></li>
+            {% else %}
+              <li>{{ v | strip }}</li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+          </ul>
+        </dd>
+      {% else %}
+        {% if value != blank %}
+          {% if type == 'link' %}
+            {% if key == 'manifest' %}
+              {%- capture value -%}
+                <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">{{ value | absolute_url }}</a>
+              {%- endcapture -%}
+            {% else %}
+                {%- capture value -%}
+                  <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">
+                    {{ value | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
+                  </a>
+                {%- endcapture -%}
+            {% endif %}
+          {% elsif type == 'internal' %}
+            {% assign example = site.documents | where: 'pid', value | first %}
+            {%- capture value -%}
+            <a href="{{ example.url | absolute_url }}">
+              {{ example.label }}
+            </a>
+            {%- endcapture -%}
+          {% endif %}
+          <dt>{{ item.label }}</dt>
+          <dd>{{ value | strip }}</dd>
+          {% endif %}
+        {% endif %}
+  {% endfor %}
+</dl>

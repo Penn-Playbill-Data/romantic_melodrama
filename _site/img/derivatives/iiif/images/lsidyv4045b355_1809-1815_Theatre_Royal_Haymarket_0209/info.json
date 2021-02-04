@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2813,
+  "height": 4703,
+  "sizes": [
+    {
+      "width": 2813,
+      "height": 4703
+    },
+    {
+      "width": 250,
+      "height": 418
+    },
+    {
+      "width": 1140,
+      "height": 1906
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 2264,
+    "height": 3933
+  },
+  "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

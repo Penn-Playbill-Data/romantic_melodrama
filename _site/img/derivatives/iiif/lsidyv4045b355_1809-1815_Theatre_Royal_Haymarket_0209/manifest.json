@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+  "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/sequence/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209.json",
+          "label": "front",
+          "width": 2813,
+          "height": 4703,
+          "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2813,
+                "height": 4703
+              },
+              "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/full/0/default.jpg",
+  "fullwidth": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/1140,/0/default.jpg"
+}
