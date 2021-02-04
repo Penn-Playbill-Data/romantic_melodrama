@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/collection/melodrama.json",
+  "@type": "sc:Collection",
+  "label": "melodrama",
+  "manifests": [
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020"
+    }
+  ]
+}
