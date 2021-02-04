@@ -7,6 +7,7 @@ meta:
 - pid
 - archiveHoldingDocument
 - announcements
+- shows[1][‘date’]
 - shows.0['venue']
 - dimensions.length
 - label: 'Source'
@@ -64,6 +65,8 @@ meta:
 
 {% assign col_metadata = site.collections | where: 'label', page.collection | first %}
 {% assign labels = site.data[col_metadata.dictionary] %}
+
+
 
 {% if layout.meta.size %}
   {% assign metadata = layout.meta %}

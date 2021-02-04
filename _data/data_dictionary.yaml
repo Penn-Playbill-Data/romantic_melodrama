@@ -15,4 +15,6 @@
   field_label: 'Length'
 - field_name: shows.0['venue']
   field_label: 'Venue'
+- field_name: shows[1][‘date’]
+  field_date: 'Date'
 ---
