@@ -58,12 +58,14 @@
         </a>
         {%- endcapture -%}
       {% endif %}
-
-  
       <dd>{{ value | strip }}</dd>
+    {% endif %}
+    {% endif %}
 
-    {% endif %}
-    {% endif %}
+    {% for show in shows %}
+    {{ date.page }} 
+    {% endfor %}
+
+
   {% endfor %}
 </dl>
-

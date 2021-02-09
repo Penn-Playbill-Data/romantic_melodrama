@@ -7,15 +7,12 @@ meta:
 - pid
 - archiveHoldingDocument
 - announcements
-- shows[1][‘date’]
-- shows.0['venue']
+- page.date
+- shows[0].venue
 - dimensions.length
-- label: 'Source'
-  value: page.source
-  type:  link
-- label: 'IIIF Manifest'
-  value: page.manifest
-  type:  link
+- source
+- manifest
+- ocr
 ---
 
 <div class='item-view' style="margin-bottom: 20px;">
@@ -66,7 +63,9 @@ meta:
 {% assign col_metadata = site.collections | where: 'label', page.collection | first %}
 {% assign labels = site.data[col_metadata.dictionary] %}
 
-
+{% for show in shows %}
+{{show.venue}}
+{% endfor %}
 
 {% if layout.meta.size %}
   {% assign metadata = layout.meta %}
