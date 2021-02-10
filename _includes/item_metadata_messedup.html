@@ -62,37 +62,31 @@
         {%- endcapture -%}
       {% endif %}
 
+
+      {% if key.shows %}
+      {% for show in page.shows %}
+      <dd>{{ 'Venue' }}</dd>
+        {{ show.venue }}
+      {% endfor %}
+      {% endif %}
+  
   
   
       <dd>{{ value | strip }}</dd>
 
-      
-        
-      
-
 
     {% endif %}
-    
-    {% endif %}
 
-  {% endfor %}
   <dd>
     {% for show in page.shows %}
-      {{ show.venue }}<br>
-      {{ show.location }}<br>
-      {{ show.date }}<br><br>
-      {% for performance in show.performances %}
-          <b><i>{{ performance.title}}</i></b><br>
-          <b>{{ 'Genre' }}</b>:
-          {{ performance.playbillGenreClaim}}<br>
-          <b>{{ 'Genre tag' }}</b>:
-          {{ performance.ourGenreAttribution}}<br><br>
-
-      {% endfor %}
+    <dd>{{ 'Venue' }}</dd>
+      {{ show.venue }}
     {% endfor %}
-  </dd>
+    </dd>
+  
 </dl>
-
+  
 <dt></dt>
+{% endif %}
 
-
+{% endfor %}

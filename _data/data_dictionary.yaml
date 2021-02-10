@@ -13,8 +13,6 @@
   field_label: 'Containing Collection'
 - field_name: dimensions.length
   field_label: 'Length'
-- field_name: shows.first.venue
-  field_label: 'venue'
 - field_name: ocr
   field_label: 'OCR' 
   type: internal  

@@ -62,12 +62,13 @@
         {%- endcapture -%}
       {% endif %}
 
+
   
   
       <dd>{{ value | strip }}</dd>
 
       
-        
+      
       
 
 
@@ -76,23 +77,13 @@
     {% endif %}
 
   {% endfor %}
-  <dd>
-    {% for show in page.shows %}
-      {{ show.venue }}<br>
-      {{ show.location }}<br>
-      {{ show.date }}<br><br>
-      {% for performance in show.performances %}
-          <b><i>{{ performance.title}}</i></b><br>
-          <b>{{ 'Genre' }}</b>:
-          {{ performance.playbillGenreClaim}}<br>
-          <b>{{ 'Genre tag' }}</b>:
-          {{ performance.ourGenreAttribution}}<br><br>
-
-      {% endfor %}
-    {% endfor %}
-  </dd>
 </dl>
 
 <dt></dt>
+<dd>
+{% for show in page.shows %}
+  {{ show.venue }}
+{% endfor %}
+</dd>
 
 
