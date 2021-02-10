@@ -78,11 +78,11 @@
   {% endfor %}
   <dd>
     {% for show in page.shows %}
-      {{ show.venue }}<br>
-      {{ show.location }}<br>
-      {{ show.date }}<br><br>
+      <br><b>{{ 'Venue: ' }}</b>{{ show.venue }}<br>
+      <b>{{ 'Location: ' }}</b>{{ show.location }}<br>
+      <b>{{ 'Date: ' }}</b>{{ show.date }}<br><br>
       {% for performance in show.performances %}
-          <p style="color:#3A0DAE";><b>{{ performance.title}}</b></p>
+          <p style="color:#ff6d57";><b>{{ performance.title}}</b></p>
           <b>{{ 'Genre' }}</b>:
           {{ performance.playbillGenreClaim}}<br>
           <b>{{ 'Genre tag' }}</b>:
