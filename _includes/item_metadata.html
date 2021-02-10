@@ -82,11 +82,17 @@
       {{ show.location }}<br>
       {{ show.date }}<br><br>
       {% for performance in show.performances %}
-          <b><i>{{ performance.title}}</i></b><br>
+          <p style="color:#3A0DAE";><b>{{ performance.title}}</b></p>
           <b>{{ 'Genre' }}</b>:
           {{ performance.playbillGenreClaim}}<br>
           <b>{{ 'Genre tag' }}</b>:
           {{ performance.ourGenreAttribution}}<br><br>
+          {{% for p in performers %}}
+              {{ p.performerName }}           
+              {{ p.role }}
+
+
+  
 
       {% endfor %}
     {% endfor %}

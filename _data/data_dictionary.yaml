@@ -16,8 +16,6 @@
 - field_name: ocr
   field_label: 'OCR' 
   type: internal  
-- field_name: page.shows.first.location
-  field_label: 'location'
 - field_name: manifest
   field_label: IIIF Manifest
   type:  link
