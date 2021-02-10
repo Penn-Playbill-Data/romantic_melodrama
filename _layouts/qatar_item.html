@@ -8,11 +8,12 @@ meta:
 - archiveHoldingDocument
 - announcements
 - page.date
-- shows[0].venue
 - dimensions.length
 - source
 - manifest
 - ocr
+- shows.first.venue
+- page.shows.first.location
 ---
 
 <div class='item-view' style="margin-bottom: 20px;">
@@ -63,9 +64,6 @@ meta:
 {% assign col_metadata = site.collections | where: 'label', page.collection | first %}
 {% assign labels = site.data[col_metadata.dictionary] %}
 
-{% for show in shows %}
-{{show.venue}}
-{% endfor %}
 
 {% if layout.meta.size %}
   {% assign metadata = layout.meta %}

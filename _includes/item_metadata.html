@@ -4,6 +4,9 @@
     {% if item.value contains 'page.' %}
       {% assign key = item | remove: 'page.' %}
       {% assign value = page[key] %}
+    {% elsif item.value contains 'first.' %}
+      {% assign key = item  remove: 'first.'  %}
+      {% assign value = page[key[0]] %}
     {% else %}
       {% assign key = item %}
       {% assign value = page[key] %}
@@ -59,11 +62,23 @@
         {%- endcapture -%}
       {% endif %}
 
+
+  
   
       <dd>{{ value | strip }}</dd>
 
+
     {% endif %}
     {% endif %}
+
   {% endfor %}
 </dl>
+
+<dt></dt>
+<dd>
+{% for show in page.shows %}
+  {{ show.venue }}
+{% endfor %}
+</dd>
+
 

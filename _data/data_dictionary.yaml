@@ -13,13 +13,13 @@
   field_label: 'Containing Collection'
 - field_name: dimensions.length
   field_label: 'Length'
-- field_name: shows[0].venue
-  field_label: 'Venue'
+- field_name: shows.first.venue
+  field_label: 'venue'
 - field_name: ocr
   field_label: 'OCR' 
   type: internal  
-- field_name: page.date
-  field_label: 'Date'
+- field_name: page.shows.first.location
+  field_label: 'location'
 - field_name: manifest
   field_label: IIIF Manifest
   type:  link
