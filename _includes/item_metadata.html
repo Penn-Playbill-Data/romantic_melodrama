@@ -4,6 +4,9 @@
     {% if item.value contains 'page.' %}
       {% assign key = item | remove: 'page.' %}
       {% assign value = page[key] %}
+    {% elsif item.value contains 'first.' %}
+      {% assign key = item  remove: 'first.'  %}
+      {% assign value = page[key[0]] %}
     {% else %}
       {% assign key = item %}
       {% assign value = page[key] %}
@@ -58,8 +61,44 @@
         </a>
         {%- endcapture -%}
       {% endif %}
+
+  
+  
       <dd>{{ value | strip }}</dd>
+
+      
+        
+      
+
+
     {% endif %}
+    
     {% endif %}
+
   {% endfor %}
+  <dd>
+    {% for show in page.shows %}
+      {{ show.venue }}<br>
+      {{ show.location }}<br>
+      {{ show.date }}<br><br>
+      {% for performance in show.performances %}
+          <p style="color:#3A0DAE";><b>{{ performance.title}}</b></p>
+          <b>{{ 'Genre' }}</b>:
+          {{ performance.playbillGenreClaim}}<br>
+          <b>{{ 'Genre tag' }}</b>:
+          {{ performance.ourGenreAttribution}}<br><br>
+          {{% for p in performers %}}
+              {{ p.performerName }}           
+              {{ p.role }}
+
+
+  
+
+      {% endfor %}
+    {% endfor %}
+  </dd>
 </dl>
+
+<dt></dt>
+
+

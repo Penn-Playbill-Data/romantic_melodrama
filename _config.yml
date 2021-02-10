@@ -72,6 +72,9 @@ collections:
       source: 'melodrama.json' # path to the metadata file within `_data`
     images:
       source: 'raw_images/melodrama' # path to the directory of images within `_data`
+  tags:
+    output: true
+    layout: 'tagpage'
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
