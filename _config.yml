@@ -18,7 +18,7 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Melodrama'
+title:            'Romantic Melodrama'
 description:      'Playbills site - Data branch'
 url:              'https://minicomp.github.io'
 baseurl:          '/wax'
@@ -118,20 +118,36 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'
+  - label: 'The Project'
     sub:
-      - label: 'Wax'
-        link: '/about/'
-      - label: 'Documentation'
-        link: 'https://minicomp.github.io/wiki/wax/'
-      - label: 'Credits'
-        link: '/credits/'
-  - label: 'Exhibits'
+      - label: 'Overview'
+        link: '/overview/'
+      - label: 'Editorial Principles and Methods'
+        link: '/principles/'
+      - label: 'Calendar'
+        link: '/calendar/'
+      - label: 'Contributors'
+        link: '/contributors/'        
+  - label: 'Melodrama'
     sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
+      - label: 'What is Melodrama?'
+        link: '/melodrama/what/'
+      - label: 'Origins, Genealogy, and Controversy'
+        link: '/melodrama/origins/'
+      - label: 'Influence'
+        link: '/melodrama/influence/'
+      - label: 'Sources'
+        link: '/melodrama/sources/' 
+  - label: 'Romantic Theatre'
+    sub:
+      - label: 'What is Melodrama?'
+        link: '/melodrama/what/'
+      - label: 'Origins, Genealogy, and Controversy'
+        link: '/melodrama/origins/'
+      - label: 'Influence'
+        link: '/melodrama/influence/'
+      - label: 'Sources'
+        link: '/melodrama/sources/'                 
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
