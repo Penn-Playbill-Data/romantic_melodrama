@@ -8,11 +8,11 @@ banner:
   height: '500px'
 ---
 
-__Melodrama Playbills__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
 
-Example second paragraph.
+__“Romantic Melodrama: Feeling in Search of Form”__ is a four-year British Academy-funded project that will document every performance of melodrama in Britain before 1843. Taking its cues from early responses, where audiences experienced melodrama's powerful stage effects and highly wrought scenes of suspense as a sort of augmented reality, the project explores how the form's techniques (such as continuous music, extensive pantomime, and immersive soundscapes) created a new theatre of sensation that heightened the affective experiences of audiences. Finally, the research tracks how these same techniques also impacted writers working in other printed genres and media, repositioning melodrama--and theatrical performance more generally--as an exemplary and revealing form in Romantic culture.
 
-The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of [WikiMedia](https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar) and [Google Art Project](https://www.google.com/culturalinstitute/about/artproject/)) and The Qatar National Library (via [World Digital Library](https://www.wdl.org/en/)).
+
+
 
 ### Browse the Collection
 
