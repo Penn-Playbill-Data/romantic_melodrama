@@ -13,6 +13,6 @@ __Romantic Melodrama: Feeling in Search of Form__ is a four-year British Academy
 
 
 
-### Browse the Collection
+### Browse the Playbills
 
 {% include collection_gallery.html facet_by='containing_collection' collection='melodrama' %}

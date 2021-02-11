@@ -1,0 +1,50 @@
+I"�<p><strong>Romantic Melodrama: Feeling in Search of Form</strong> is a four-year British Academy-funded project that will document every performance of melodrama in Britain before 1843. Taking its cues from early responses, where audiences experienced melodrama’s powerful stage effects and highly wrought scenes of suspense as a sort of augmented reality, the project explores how the form’s techniques (such as continuous music, extensive pantomime, and immersive soundscapes) created a new theatre of sensation that heightened the affective experiences of audiences. Finally, the research tracks how these same techniques also impacted writers working in other printed genres and media, repositioning melodrama–and theatrical performance more generally–as an exemplary and revealing form in Romantic culture.</p>
+
+<h3 id="browse-the-playbills">Browse the Playbills</h3>
+
+<div id="wax-gallery-melodrama-container" class="wax-gallery-container full-width">
+  <div class="wax-inline-container">
+    <div id="melodrama-facet-buttons" class="facet-buttons"></div>
+    <div id="wax-gallery-melodrama" class="wax-gallery"></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    var container = $('#wax-gallery-melodrama-container');
+    var gallery = $('#wax-gallery-melodrama');
+    var buttonDiv = $('#melodrama-facet-buttons');
+
+    
+      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv3fa2a8c1_1797-1800_covent_garden_playbills_0146/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146/full/250,/0/default.jpg' alt='1799-04-13 Covent Garden'/><div class='overlay'><p class='info'>1799-04-13 Covent Garden</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv3fa2a8c1_1797-1800_covent_garden_playbills_0147/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147/full/250,/0/default.jpg' alt='1799-04-15 Covent Garden'/><div class='overlay'><p class='info'>1799-04-15 Covent Garden</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv4045b355_1809-1815_theatre_royal_haymarket_0209/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/250,/0/default.jpg' alt='1811-09-30 Haymarket'/><div class='overlay'><p class='info'>1811-09-30 Haymarket</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv41b2af05_1830-1832_dublin_theatre_royal_0020/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/full/250,/0/default.jpg' alt='1830-02-01 Dublin Theatre'/><div class='overlay'><p class='info'>1830-02-01 Dublin Theatre</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv4332b851_1809-1821_lyceum_english_opera_0335/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335/full/250,/0/default.jpg' alt='1819-07-12 Opera House'/><div class='overlay'><p class='info'>1819-07-12 Opera House</p></div></div></a></div>");
+      
+    
+
+    
+      
+        var facets = Array.from(new Set(['', '', '', '', '']));
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+
+        for (i in facets) {
+          buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
+        }
+
+        $(document).ready(function(){
+          $(".facet").click(function(){
+            var filterValue = $(this).attr('data-filter');
+            $('.facet').removeClass('active');
+            $(this).addClass('active');
+            if(filterValue == 'all') { $('.all').show('slow'); }
+            else { $('.all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+          });
+        });
+      
+    
+  });
+</script>
+
+:ET

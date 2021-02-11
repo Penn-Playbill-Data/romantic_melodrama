@@ -12,3 +12,5 @@ Deven Parker is a Postdoctoral Research Associate in the School of English and D
 
 #### Cassidy Holahan
 Cassidy Holahan is a Ph.D. Candidate in the English Department of the University of Pennsylvania, specializing in British literature of the long eighteenth century. Her work focuses on the evolving relationship between novels and the theatre over the course of the century, and the authors who dabbled in both forms. She is currently a Mellon Mid-Doctoral Fellow for the 2020-2021 academic year at Penn's Price Lab for Digital Humanities, where she is working on a digital database and networking project cataloguing adaptations of non-dramatic works to the eighteenth-century stage. Her work in digital humanities lies at the intersection of DH and book history, and past projects (found on her website) seek to elucidate how eighteenth-century readers read and interacted with physical books.
+{% include inline_image.html image='/img/headshots/holahan.jpg' y='50%'%}
+

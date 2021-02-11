@@ -148,12 +148,12 @@ menu:
         link: '/melodrama/influence/'
       - label: 'Sources'
         link: '/melodrama/sources/'                 
+  - label: 'Essays'
+    link: '/essays/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
     link: '/search/'
-  - label: 'Reuse'
-    link: '/reuse/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS

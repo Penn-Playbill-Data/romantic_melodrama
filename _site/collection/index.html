@@ -17,7 +17,7 @@
 
 
   <body>
-    <time datetime='2021-02-11 11:40'></time>
+    <time datetime='2021-02-11 11:59'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand' href="http://localhost:4000/wax/" title='Home'>
@@ -90,6 +90,12 @@
         
           
             <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/wax/essays/'>Essays</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
               <a class='nav-link' href='http://localhost:4000/wax/collection/'>Browse</a>
             </li>
           
@@ -97,12 +103,6 @@
           
             <li class='nav-item'>
               <a class='nav-link' href='http://localhost:4000/wax/search/'>Search</a>
-            </li>
-          
-        
-          
-            <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/reuse/'>Reuse</a>
             </li>
           
         
@@ -120,7 +120,7 @@
   <h2 class='page-title'>Browse the Collection</h2>
 
 
-<p>This site’s sample collection comprises a set of objects, each of which is represented by one or more images. The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of <a href="https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar">WikiMedia</a> and <a href="https://www.google.com/culturalinstitute/about/artproject/">Google Art Project</a>) and The Qatar National Library (via <a href="https://www.wdl.org/en/">World Digital Library</a>).</p>
+<p>Browse the playbills by theatrical venue, genre, or year.</p>
 
 <div id="wax-gallery-melodrama-container" class="wax-gallery-container full-width">
   <div class="wax-inline-container">
@@ -136,17 +136,17 @@
     var buttonDiv = $('#melodrama-facet-buttons');
 
     
-      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv3fa2a8c1_1797-1800_covent_garden_playbills_0146/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146/full/250,/0/default.jpg' alt='1799-04-13 Covent Garden'/><div class='overlay'><p class='info'>1799-04-13 Covent Garden</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv3fa2a8c1_1797-1800_covent_garden_playbills_0147/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147/full/250,/0/default.jpg' alt='1799-04-15 Covent Garden'/><div class='overlay'><p class='info'>1799-04-15 Covent Garden</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv4045b355_1809-1815_theatre_royal_haymarket_0209/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/250,/0/default.jpg' alt='1811-09-30 Haymarket'/><div class='overlay'><p class='info'>1811-09-30 Haymarket</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv41b2af05_1830-1832_dublin_theatre_royal_0020/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/full/250,/0/default.jpg' alt='1830-02-01 Dublin Theatre'/><div class='overlay'><p class='info'>1830-02-01 Dublin Theatre</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='http://localhost:4000/wax/melodrama/lsidyv4332b851_1809-1821_lyceum_english_opera_0335/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335/full/250,/0/default.jpg' alt='1819-07-12 Opera House'/><div class='overlay'><p class='info'>1819-07-12 Opera House</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item british-library all'><a href='http://localhost:4000/wax/melodrama/lsidyv3fa2a8c1_1797-1800_covent_garden_playbills_0146/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146/full/250,/0/default.jpg' alt='1799-04-13 Covent Garden'/><div class='overlay'><p class='info'>1799-04-13 Covent Garden</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item british-library all'><a href='http://localhost:4000/wax/melodrama/lsidyv3fa2a8c1_1797-1800_covent_garden_playbills_0147/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147/full/250,/0/default.jpg' alt='1799-04-15 Covent Garden'/><div class='overlay'><p class='info'>1799-04-15 Covent Garden</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item british-library all'><a href='http://localhost:4000/wax/melodrama/lsidyv4045b355_1809-1815_theatre_royal_haymarket_0209/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/250,/0/default.jpg' alt='1811-09-30 Haymarket'/><div class='overlay'><p class='info'>1811-09-30 Haymarket</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item british-library all'><a href='http://localhost:4000/wax/melodrama/lsidyv41b2af05_1830-1832_dublin_theatre_royal_0020/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/full/250,/0/default.jpg' alt='1830-02-01 Dublin Theatre'/><div class='overlay'><p class='info'>1830-02-01 Dublin Theatre</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item british-library all'><a href='http://localhost:4000/wax/melodrama/lsidyv4332b851_1809-1821_lyceum_english_opera_0335/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335/full/250,/0/default.jpg' alt='1819-07-12 Opera House'/><div class='overlay'><p class='info'>1819-07-12 Opera House</p></div></div></a></div>");
       
     
 
     
       
-        var facets = Array.from(new Set(['', '', '', '', '']));
+        var facets = Array.from(new Set(['british-library', 'british-library', 'british-library', 'british-library', 'british-library']));
         buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
 
         for (i in facets) {
