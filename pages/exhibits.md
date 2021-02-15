@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /exhibits/
-title: Featured Exhibits
+title: Melodrama Exhibits
 ---
 
 {% assign exhibits = site.exhibits | where: 'layout','exhibit' %}
