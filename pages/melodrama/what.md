@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What Is Melodrama?
-permalink: '/what/'
+permalink: '/melodrama/what/'
 ---
 
 ### What Is Melodrama? The Origins of a Hybrid Genre ###

@@ -131,7 +131,7 @@ menu:
   - label: 'Melodrama'
     sub:
       - label: 'What is Melodrama?'
-        link: '/what/'
+        link: '/melodrama/what/'
       - label: 'Origins, Genealogy, and Controversy'
         link: '/melodrama/origins/'
       - label: 'Influence'
