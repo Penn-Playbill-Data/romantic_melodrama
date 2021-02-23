@@ -93,22 +93,15 @@ search:
         fields: # the metadata fields to index
           - pid
           - label
-          - archive_holding_document
+          - archiveHoldingDocument
           - call_number
           - containing_collection
           - data_cataloger
           - document_type
           - announcements
-          - document_printer_location
-          - document_printer_name
-          - show_date
-          - show_doors_open
-          - show_location
-          - show_venue
-          - po_1
-          - pt_1
-          - po_2
-          - pt_2
+          - show.venue
+          - show.performance.playbillGenreClaim
+          - show.performance.ourGenreAttribution
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
