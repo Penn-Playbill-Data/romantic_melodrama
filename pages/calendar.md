@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project Calendar
-permalink: '/calendar/'
+permalink: '/Calendar/'
 ---
 
 #### Phase 1
