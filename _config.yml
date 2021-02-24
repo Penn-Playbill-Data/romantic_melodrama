@@ -121,7 +121,7 @@ menu:
   - label: 'About'
     link: '/About/'
   - label: 'Contributers'
-    link: '/contributers/'
+    link: '/Contributers/'
   - label: 'Database'
     link: '/Database/'
   - label: 'Archives'
