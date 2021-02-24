@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Origins of Melodrama
+title: Melodrama's Origins
 permalink: '/melodrama/origins/'
 ---
 
