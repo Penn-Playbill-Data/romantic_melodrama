@@ -66,7 +66,7 @@
   
       <dd>{{ value | strip }}</dd>
 
-
+      
         
       
 
@@ -79,42 +79,23 @@
   <dd>
     {% for show in page.shows %}
       <br><b>{{ 'Venue: ' }}</b>{{ show.venue }}<br>
-      <span class="meta-item"><b>{{ 'Location: ' }}</b>{{ show.location }}</span><br>
-      <b>{{ 'Date: ' }}</b>{{ show.date }}<br>
+      <b>{{ 'Location: ' }}</b>{{ show.location }}<br>
+      <b>{{ 'Date: ' }}</b>{{ show.date }}<br><br>
       {% for performance in show.performances %}
-          <br><p style="color:#ff6d57";><b>{{ performance.title}}</b></p>
+          <p style="color:#ff6d57";><b>{{ performance.title}}</b></p>
           <b>{{ 'Genre' }}</b>:
           {{ performance.playbillGenreClaim}}<br>
           <b>{{ 'Genre tag' }}</b>:
-          {% for genre in performance.ourGenreAttribution %}
-            {{ genre }}
-          {% endfor %}<br>
-          
-          {% for contributor in performance.contributors %}
-            {% unless contributor.contributorName == "" %}
-              <b>{{ contributor.contributorType }}</b>{{ ': ' }}{{ contributor.contributorName}}<br>
-            {% endunless %}
-          {% endfor %}
-      {% endfor %}
+          {{ performance.ourGenreAttribution}}<br><br>
+          {{% for p in performers %}}
+              {{ p.performerName }}           
+              {{ p.role }}
 
-      
-      {% for performance in show.performances %}
-          <br><p style="color:#0174DF";><b>{{'Cast List for'}} {{ performance.title}}</b></p>
-          {% for p in performance.performers %}
-            <b>{{ p.performerName }}</b> {{'as'}} {{ p.role }} 
-            {% unless p.roleNotes == "" %}
-              {{'('}}{{ p.roleNotes }}{{')'}}
-            {% endunless %}
-            <br>
-          {% endfor %}
 
   
 
-        
-          {% endfor %}
-
-
       {% endfor %}
+    {% endfor %}
   </dd>
 </dl>
 
