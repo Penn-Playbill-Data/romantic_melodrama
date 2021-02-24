@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Romantic Melodrama: Overview and Background 
-permalink: '/Melodrama/'
+title: Romantic Melodrama: Overview and Background
+permalink: '/AboutMelodrama/'
 ---
 
 Emerging in the 1790s from the theatre of revolutionary France and popular gothic drama in Britain, melodrama is at once central to romanticism and a creature of it. Its origins and popular ascent, its trafficking in speed and sensation, coincide with the years of the Napoleonic Wars and their aftermath. As Jeffrey Cox has recently argued, melodrama's penchant for providing thrilling resolutions to stories of danger and doom cannot be fully understood outside of romanticism's dominant context of nearly continuous and total war. Even Thomas Holcroft's A Tale of Mystery (1802), an adaptation of Pixérécourt's Coelina and the first ‘melo drame’ so-called in English, was only made possible when the brief Peace of Amiens (1802-3) allowed Holcroft to slip across the Channel to Paris, where he cribbed the Coelina's music, staging, and book during a week of intensive viewing. The hit of the 1802-3 season, A Tale of Mystery inspired further plays. Forty-eight plays calling themselves melodramas were submitted to the Lord Chamberlain's office for review between 1803 and 1813. Unlike the formulaic versions of the later nineteenth century, these were heterogeneous and varied, drawing for their stories and styles on a range of dramaturgies including pantomime, opera, and ballet. What they all shared was what Samuel Coleridge called ‘situations’: scenes of tension and suspense aided by movement and music expressive of plot. Audiences found the experience utterly new: a theatre of sensation providing a kind of heightened realism, in which the senses and the heart could be entirely engaged.

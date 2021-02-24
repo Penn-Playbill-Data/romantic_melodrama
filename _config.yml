@@ -123,7 +123,7 @@ menu:
   - label: 'Database'
     link: '/Database/'
   - label: 'Melodrama'
-    link: '/Melodrama'
+    link: '/AboutMelodrama'
   - label: 'Archives'
     link: '/Archives/'
   - label: 'Project Calendar'
