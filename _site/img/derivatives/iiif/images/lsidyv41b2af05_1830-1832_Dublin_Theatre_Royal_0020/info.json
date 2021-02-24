@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2264,
+  "height": 3933,
+  "sizes": [
+    {
+      "width": 2264,
+      "height": 3933
+    },
+    {
+      "width": 250,
+      "height": 434
+    },
+    {
+      "width": 1140,
+      "height": 1980
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}
