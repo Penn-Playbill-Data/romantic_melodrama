@@ -91,7 +91,9 @@
           {% endfor %}<br>
           
           {% for contributor in performance.contributors %}
-            <b>{{ contributor.contributorType }}</b>{{ ': ' }}{{ contributor.contributorName}}<br>
+            {% unless contributor.contributorName == "" %}
+              <b>{{ contributor.contributorType }}</b>{{ ': ' }}{{ contributor.contributorName}}<br>
+            {% endunless %}
           {% endfor %}
       {% endfor %}
 
