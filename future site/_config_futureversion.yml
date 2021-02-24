@@ -1,0 +1,154 @@
+# ==============================================================
+# WAX CONFIGURATION
+# ==============================================================
+# Jekyll configuration files are written in YAML format.
+# Colons, tabs/spacing, and quotes are meaningful in YAML.
+# It is recommended you look at the following guide to avoid
+# syntax errors in this file:
+# ~> https://learnxinyminutes.com/docs/yaml/
+#
+#
+# Questions ?
+# ~> https://minicomp.github.io/wiki/#/
+# ~> https://gitter.im/minicomp/wax/
+#
+# ---------------------------------------------------------------
+# MAIN SETTINGS
+# ---------------------------------------------------------------
+# Feel free to change these! For more info, refer to:
+# ~> https://jekyllrb.com/docs/configuration/options/
+
+title:            'Romantic Melodrama'
+description:      'Playbills site - Data branch'
+url:              'https://minicomp.github.io'
+baseurl:          '/wax'
+copyright:        'Example copyright org, 2019'
+logo:             '/assets/logo.png'
+
+# ---------------------------------------------------------------
+# BUILD SETTINGS
+# ---------------------------------------------------------------
+# Best not to mess with these unless you know what you're doing!
+
+permalink: 'pretty'
+sass:
+  style: compressed
+exclude:
+  - Gemfile*
+  - Rakefile
+  - vendor
+  - spec
+  - README.md
+webrick:
+  headers:
+    'Access-Control-Allow-Origin': '*'
+kramdown:
+ auto_ids:       true
+ footnote_nr:    1
+ entity_output:  as_char
+ footnote_backlink: "&#x21a9;&#xfe0e;"
+ toc_levels:     1..6
+ smart_quotes:   lsquo,rsquo,ldquo,rdquo
+ enable_coderay: false
+
+
+# --------------------------------------------------------------
+# COLLECTION SETTINGS
+# --------------------------------------------------------------
+# Wax leverages Jekyll collections for much of its
+# functionality, therefor some of the keys below are from
+# Jekyll while others are Wax-specific.
+# For more info, refer to:
+# ~> https://jekyllrb.com/docs/collections/
+
+collections:
+  exhibits:
+    output: true
+  melodrama: # name of collection
+    output: true # makes sure pages are output as html files
+    layout: 'qatar_item' # the layout for the pages to use
+    dictionary: 'data_dictionary'
+    metadata:
+      source: 'melodrama.json' # path to the metadata file within `_data`
+    images:
+      source: 'raw_images/melodrama' # path to the directory of images within `_data`
+  tags:
+    output: true
+    layout: 'tagpage'
+
+# --------------------------------------------------------------
+# SEARCH INDEX SETTINGS
+# --------------------------------------------------------------
+# You can create multiple search indexes below (though only one is
+# recommended!) by specifying
+# an `index` file to write it to and some `collections` for it to index
+# and running `$ bundle exec rake wax:search` .
+
+search:
+  main:
+    index: '/search/index.json' # file the index will get written to
+    collections:
+      melodrama:
+        content: true # whether or not to index page content
+        fields: # the metadata fields to index
+          - pid
+          - label
+          - archive_holding_document
+          - call_number
+          - containing_collection
+          - data_cataloger
+          - document_type
+          - announcements
+          - document_printer_location
+          - document_printer_name
+          - show_date
+          - show_doors_open
+          - show_location
+          - show_venue
+          - po_1
+          - pt_1
+          - po_2
+          - pt_2
+
+# --------------------------------------------------------------
+# SITE MENU SETTINGS
+# --------------------------------------------------------------
+# Each menu item needs a `label` (whats shown), and a `link`
+# (where it goes). An item can optionally have a dropdown
+# submenu via `sub`.
+
+menu:
+  - label: 'The Project'
+    link: '/project/'
+  - label: 'Database'
+    link: '/Database/'
+  - label: 'Melodrama'
+    link: '/AboutMelodrama/'
+  - label: 'Archives'
+    link: '/Archives/'
+  - label: 'Project Calendar'
+    link: '/Calendar/'
+  - label: 'Contributors'
+    link: '/Contributors/'
+  - label: 'Browse'
+    link: '/collection/'
+  - label: 'Search'
+    link: '/search/'
+
+# --------------------------------------------------------------
+# SITE FOOTER SETTINGS
+# --------------------------------------------------------------
+#
+
+footer:
+  links:
+    - label: 'GitHub'
+      link: 'https://github.com/minicomp/wax'
+    - label: 'Credits'
+      link: '/credits'
+    - label: 'Contact'
+      link: 'https://gitter.im/minicomp/wax/'
+  logos:
+    - img: '/img/logo.png'
+
+# FIN
