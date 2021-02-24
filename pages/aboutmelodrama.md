@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Romantic Melodrama: Overview and Background
+title: Romantic Melodrama
 permalink: '/AboutMelodrama/'
 ---
 
