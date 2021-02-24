@@ -118,12 +118,12 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'
-    link: '/About/'
+  - label: 'The Project'
+    link: '/project/'
   - label: 'Database'
     link: '/Database/'
   - label: 'Melodrama'
-    link: '/AboutMelodrama'
+    link: '/AboutMelodrama/'
   - label: 'Archives'
     link: '/Archives/'
   - label: 'Project Calendar'
