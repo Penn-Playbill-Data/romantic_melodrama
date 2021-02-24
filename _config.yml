@@ -118,7 +118,7 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'About the Project'
+  - label: 'About'
     link: '/About/'
   - label: 'Contributers'
     link: '/contributers/'
