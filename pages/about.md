@@ -3,7 +3,6 @@ layout: page
 title: about
 permalink: '/About/'
 ---
-### About the Project ###
 
 The project’s key purpose is to understand the foundational role of melodrama in shaping aesthetic experience during the Romantic period. Its empirical focus will be the exhaustive documentation and detailed analysis of performances of melodrama in the first decades of its popularity. This site will make available--in curated, searchable form--data that is currently either
 scattered or inaccessible to researchers.
