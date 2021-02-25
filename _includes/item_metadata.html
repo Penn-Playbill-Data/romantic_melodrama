@@ -102,7 +102,7 @@
           <br><p style="color:#0174DF";><b>{{'Cast List for'}} {{ performance.title}}</b></p>
           {% for p in performance.performers %}
             <b>{{ p.performerName }}</b> {{'as'}} {{ p.role }} 
-            {% unless p.roleNotes == "" %}
+            {% unless p.roleNotes == "" or '' %}
               {{'('}}{{ p.roleNotes }}{{')'}}
             {% endunless %}
             <br>
