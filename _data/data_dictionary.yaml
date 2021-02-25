@@ -1,5 +1,7 @@
+
 ---
-- field_name: pid
+
+  - field_name: pid
   field_label: 'Item Identifier'
 - field_name: label
   field_label: 'Title'
@@ -7,6 +9,10 @@
   field_label: 'Archive Holding Document'
 - field_name: announcements
   field_label: 'Announcements'
+- field_name: location
+  field_label: 'Locaton'
+- field_name: show.location
+  field_label: 'Locaton'  
 - field_name: documentPrinter
   field_label: 'Document Printer'
 - field_name: containingCollection

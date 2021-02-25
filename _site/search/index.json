@@ -1,0 +1,68 @@
+[
+  {
+    "pid": "lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147",
+    "label": "1799-04-15 Covent Garden",
+    "archiveHoldingDocument": "British Library",
+    "announcements": [
+      ""
+    ],
+    "collection": "melodrama",
+    "thumbnail": "/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/melodrama/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147",
+    "lunr_id": 0
+  },
+  {
+    "pid": "lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146",
+    "label": "1799-04-13 Covent Garden",
+    "archiveHoldingDocument": "British Library",
+    "announcements": [
+      ""
+    ],
+    "collection": "melodrama",
+    "thumbnail": "/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/melodrama/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146",
+    "lunr_id": 1
+  },
+  {
+    "pid": "lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020",
+    "label": "1830-02-01 Dublin Theatre",
+    "archiveHoldingDocument": "British Library",
+    "announcements": [
+      "Second Week of Engagement of Mr. Dowton, And last appearance but Two of Miss F. Ayton."
+    ],
+    "collection": "melodrama",
+    "thumbnail": "/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/melodrama/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020",
+    "lunr_id": 2
+  },
+  {
+    "pid": "lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335",
+    "label": "1819-07-12 Opera House",
+    "archiveHoldingDocument": "British Library",
+    "announcements": [
+      ""
+    ],
+    "collection": "melodrama",
+    "thumbnail": "/img/derivatives/iiif/images/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/melodrama/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335",
+    "lunr_id": 3
+  },
+  {
+    "pid": "lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+    "label": "1811-09-30 Haymarket",
+    "archiveHoldingDocument": "British Library",
+    "announcements": [
+      "First announcement",
+      "Second announcement"
+    ],
+    "collection": "melodrama",
+    "thumbnail": "/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/melodrama/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209",
+    "lunr_id": 4
+  }
+]
