@@ -15,8 +15,8 @@ dimensions:
   length: ''
   width: ''
 documentPrinter:
-  - Lowndes; Marquis-Court, Drury-Lane
-  - Second example
+- Lowndes; Marquis-Court, Drury-Lane
+- second example
 printedArea:
   length: ''
   width: ''

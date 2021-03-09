@@ -10,16 +10,15 @@ pageNumber: ''
 periodicalTitle: ''
 persistentUrl: ''
 announcements:
-- First announcement
-- Second announcement
+- ''
 dimensions:
-  length: ''
+  length: example dimension, 9cm.
   width: ''
 documentPrinter:
 - T. Woodfall; Villiers Street, Strand, London
 - second list
 printedArea:
-  length: ''
+  length: Example length, 6cm.
   width: ''
 shows:
 - date: '1811-09-30'
