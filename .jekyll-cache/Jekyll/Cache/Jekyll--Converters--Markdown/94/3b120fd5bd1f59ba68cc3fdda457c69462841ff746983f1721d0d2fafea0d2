@@ -1,0 +1,43 @@
+I"<p>Browse the playbills by theatrical venue, genre, or year.</p>
+
+<div id="wax-gallery-melodrama-container" class="wax-gallery-container full-width">
+  <div class="wax-inline-container">
+    <div id="melodrama-facet-buttons" class="facet-buttons"></div>
+    <div id="wax-gallery-melodrama" class="wax-gallery"></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    var container = $('#wax-gallery-melodrama-container');
+    var gallery = $('#wax-gallery-melodrama');
+    var buttonDiv = $('#melodrama-facet-buttons');
+
+    
+      
+    
+
+    
+      
+        var facets = Array.from(new Set([]));
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+
+        for (i in facets) {
+          buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
+        }
+
+        $(document).ready(function(){
+          $(".facet").click(function(){
+            var filterValue = $(this).attr('data-filter');
+            $('.facet').removeClass('active');
+            $(this).addClass('active');
+            if(filterValue == 'all') { $('.all').show('slow'); }
+            else { $('.all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+          });
+        });
+      
+    
+  });
+</script>
+
+:ET
