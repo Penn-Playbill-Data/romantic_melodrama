@@ -318,7 +318,7 @@ shows:
     toBeHad: Places for the Boxes to be taken of Mr. Massingham at the Theatre
     upperGalleryPrice: '12'
 order: '4'
-layout: qatar_item
+layout: melodrama_item
 collection: melodrama
 thumbnail: "/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0209/full/1140,/0/default.jpg"
