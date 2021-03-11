@@ -755,7 +755,7 @@ shows:
     toBeHad: ''
     upperGalleryPrice: '12'
 order: '2'
-layout: qatar_item
+layout: melodrama_item
 collection: melodrama
 thumbnail: "/img/derivatives/iiif/images/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/lsidyv4332b851_1809-1821_Lyceum_English_Opera_0335/full/1140,/0/default.jpg"
