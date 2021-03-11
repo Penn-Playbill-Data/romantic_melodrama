@@ -19,4 +19,13 @@ meta:
         value: item.venue
       - label: 'Location'
         value: item.location
+  - label: 'Performances'
+    value: page.shows.first.performances
+    type: loop
+    sub:
+      - label: 'title'
+        value: item.title
+      - label: 'Genre Claim'
+        value: item.playbillGenreClaim
+    
 ---
