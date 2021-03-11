@@ -99,9 +99,7 @@ search:
           - data_cataloger
           - document_type
           - announcements
-          - show.venue
-          - show.performance.playbillGenreClaim
-          - show.performance.ourGenreAttribution
+          - shows
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
