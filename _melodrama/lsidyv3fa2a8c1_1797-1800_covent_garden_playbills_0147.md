@@ -771,7 +771,7 @@ shows:
     toBeHad: ''
     upperGalleryPrice: ''
 order: '0'
-layout: qatar_item
+layout: melodrama_item
 collection: melodrama
 thumbnail: "/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0147/full/1140,/0/default.jpg"

@@ -342,7 +342,7 @@ shows:
     toBeHad: ''
     upperGalleryPrice: ''
 order: '1'
-layout: qatar_item
+layout: melodrama_item
 collection: melodrama
 thumbnail: "/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0020/full/1140,/0/default.jpg"

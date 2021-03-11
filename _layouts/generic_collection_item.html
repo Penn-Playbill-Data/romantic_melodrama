@@ -32,13 +32,14 @@ The block below controls the item metadata table
 {% endcomment %}
 
 {% assign col_metadata = site.collections | where: 'label', page.collection | first %}
-{% assign labels = site.data[col_metadata.dictionary] %}
 
 {% if layout.meta.size %}
   {% assign metadata = layout.meta %}
 {% elsif page.meta.size %}
   {% assign metadata = page.meta %}
 {% endif %}
-{% if metadata.size and labels.size %}
+{% if metadata.size %}
   {% include item_metadata.html meta=metadata labels=labels %}
 {% endif %}
+
+{{ content }}
