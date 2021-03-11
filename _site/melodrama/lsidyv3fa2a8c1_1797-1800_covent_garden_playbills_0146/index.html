@@ -4,10 +4,10 @@
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    Romantic Melodrama | What Is Melodrama?
+    Romantic Melodrama | 1799-04-13 Covent Garden
   </title>
 
-  <link rel='canonical' href='http://localhost:4000/wax/melodrama/what/'/>
+  <link rel='canonical' href='http://localhost:4000/wax/melodrama/lsidyv3fa2a8c1_1797-1800_covent_garden_playbills_0146/'/>
   <link rel='icon' type='image/png' href="http://localhost:4000/wax/img/logo.png">
   <link rel='stylesheet' href="http://localhost:4000/wax/assets/styles.css"/>
 
@@ -140,12 +140,59 @@
     <div id='wax-main'>
       <div id='wax-content' class='wax-inline-container'>
         
-  <h2 class='page-title'>What Is Melodrama?</h2>
+
+<h3 alt="1799-04-13 Covent Garden" class='item-label'>1799-04-13 Covent Garden</h3>
 
 
-<h3 id="what-is-melodrama-the-origins-of-a-hybrid-genre">What Is Melodrama? The Origins of a Hybrid Genre</h3>
 
-<p>Page forthcoming.</p>
+
+  <div class='item-view'>
+    <span class='pagination-link' id='prevlink'></span>
+    
+      <div id="osd" class="image-viewer"></div>
+<script async defer src="http://localhost:4000/wax/assets/openseadragon/openseadragon.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    var manifestUrl = "http://localhost:4000/wax/img/derivatives/iiif/lsidyv3fa2a8c1_1797-1800_Covent_Garden_Playbills_0146/manifest.json";
+    $.getJSON(manifestUrl, function(data) {
+      var tileSources = [];
+      $.each(data.sequences[0].canvases, function(k, val) {
+        tileSources.push(val.images[0].resource.service['@id'] + '/info.json');
+      });
+      OpenSeadragon({
+        id: "osd",
+        sequenceMode: true,
+        prefixUrl: "http://localhost:4000/wax/assets/openseadragon/images/",
+        tileSources: tileSources,
+        homeFillsViewer: false,
+        showReferenceStrip: true
+      });
+    });
+  });
+</script>
+
+    
+    <span class='pagination-link' id='nextlink'></span>
+  </div>
+  
+
+
+
+  <script type='text/javascript'>
+    $('#prevlink').append(`<a href='http://localhost:4000/wax/melodrama/lsidyv4332b851_1809-1821_lyceum_english_opera_0335/' display='none'>&#8249;</a>`);
+    $('#nextlink').append(`<a href='http://localhost:4000/wax/melodrama/lsidyv4045b355_1809-1815_theatre_royal_haymarket_0209/' display='none'>&#8250;</a>`);
+  </script>
+
+
+
+
+
+
+
+
+
+
 
 
       </div>
